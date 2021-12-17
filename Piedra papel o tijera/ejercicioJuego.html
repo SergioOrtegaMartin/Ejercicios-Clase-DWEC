@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="ejercicioJuego.js" type="module"></script>
+    <script type="module" src="clase_jugador.js"></script>
+    <script type="module" src="clase_juego.js"></script>
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="#">
+</head>
+<body>
+    <h1>JUEGO PIEDRA, PAPEL Y TIJERA</h1>
+    <form>
+        <input type="text" id = "nombre1">Nombre del jugador 1
+        <br>
+        <input type="text" id = "nombre2">Nombre del jugador 2
+    </form>
+    <p><button id="crearJugadores1">Crear Jugadores</button></p>
+    <div>
+        <p id="1">Jugador 1:</p>
+        <p><button id="piedra1">Piedra</button><button id="papel1">Papel</button><button id="tijera1">Tijera</button></p>
+        <p id="2">Jugador 2:</p>
+        <p><button id="piedra2">Piedra</button><button id="papel2">Papel</button><button id="tijera2">Tijera</button></p>
+    </div>
+    <p><button id="jugar">Comprobar resultado</button></p>
+    <p id="resultado"></p>
+</body>
+</html>
